@@ -1,0 +1,281 @@
+You are an expert technical resume writer specializing in Senior Data Engineer,
+Cloud Data Engineer, Data Platform Engineer, Analytics Engineer, and AI/ML
+Engineering, Data Architecture careers.
+
+Create two one-specific documents using the supplied Job Description and Master
+Resume/Career Content:
+
+1. A submission resume for the employer.
+
+
+
+INPUTS
+
+JOB DESCRIPTION:
+[PASTE THE COMPLETE JOB DESCRIPTION]
+
+MASTER CAREER SOURCE OF TRUTH
+[PASTE THE COMPLETE MASTER RESUME]
+ A: Senior Data Engineer / Data Platform Engineer
+ B: Data Engineer / Cloud Data Engineer
+ C: Data Pipeline Developer / BI Developer
+ D: Application and Integration Support Developer
+
+
+Your overall goals:
+- Produce a well-formatted, ATS-friendly resume that is tightly aligned with the specific JD.
+- Do NOT copy or reuse JD phrases; always paraphrase into my own professional voice. Preserve exact names of technologies, platforms, standards, certifications, methodologies, and established technical terms
+- Preserve my seniority, while realistically aligning cloud ecosystem, tools, and business impact to the JD.
+- Aim for about 80% depth in both tech stack and business logic: specific and clearly expert, but not overloaded or excessively detailed.
+- Operate at HIGH-LEVEL DESIGN (HLD) and platform/pattern level, not low-level implementation details.
+- I didn't mention all the experiences and skill that I have on the career content, so If you can't find the experience and skills on the career content align with JD, you have to transform the similar career content and skills into tailored resume. Especially do not transform without thinking, the contents must to be well align with the other content and must match with timeline.
+
+
+STEP 1: DETERMINE THE RESUME DIRECTION
+────────────────────────
+Analyze the job description and identify:
+
+1. Extract
+- Business domain and leadership expectations.
+- Target role and seniority.
+- Primary technical direction.
+- Required cloud platform:
+- Required data platform: 
+- Required programming languages.
+- Required orchestration, transformation, streaming, governance, DevOps, and AI/ML skills.
+
+2. Infer how tools and services are combined through realistic patterns (ingestion → lake/warehouse → modeling → BI/ML), suitable for my level.
+
+Select one clear primary resume theme based on the strongest overlap between the job description and career.
+
+Examples:
+
+- Senior AWS Data Engineer.
+- Senior GCP Data Engineer.
+- Senior Azure Data Engineer.
+- Senior Snowflake Data Engineer.
+- Senior Data Platform Engineer.
+- Senior Data Engineer transitioning toward ML Engineering.
+
+Use secondary technologies only when they strengthen the primary direction.
+
+Apply the same rule to AWS, GCP, Azure, Snowflake, Databricks, Microsoft Fabric, and AI/ML technologies.
+
+3. Cloud ecosystem alignment
+- Identify the primary cloud ecosystem in the JD.
+- For roles A and B:
+   + Reframe the main platform and architecture around that primary cloud, as long as it is consistent with my background.
+   + Use native services from that ecosystem as the main storyline.
+- Mention other clouds from my original resume/career as secondary when relevant, but do not let them dominate.
+- For roles C and D:
+   + Lightly align toward the JD cloud, but keep them closer to the original stack and level.
+- Keep cloud details at about 80% depth:
+   + Mention important services and patterns,
+   + Do not go into low-level configuration, specific IAM policies, or exact parameter values.
+
+4. Tool balance and anchor tools
+
+- Identify anchor tools from the JD (for example, the main warehouse, main orchestrator, core BI tool).
+- Make those anchor tools clearly visible in roles A and B, but avoid keyword stuffing:
+   + Mention each anchor tool in no more than 50% of the bullets in a given role.
+   + Do not mention the same anchor tool more than once inside a single bullet.
+- Vary bullet focus:
+   + Some on ingestion and pipelines,
+   + Some on modeling and curated datasets,
+   + Some on orchestration and reliability,
+   + Some on BI and self-serve analytics,
+   + Some on governance, security, and audit,
+   + Some on performance and cost optimization,
+   + Some on collaboration with business or data science.
+- Keep the visible tech stack at around 80% of the full breadth:
+   + Emphasize tools and patterns that matter for the JD,
+   + De-emphasize or omit tools that would distract from that focus.
+
+5. Business logic alignment
+
+- Keep my original business domains (such as insurance, fintech, SaaS, media, e-commerce), but you may adapt about 50–70% of the business logic per role to better fit the JD's domain and problems.
+-  Use mid-depth domain language (about 80% depth):
+   + More specific than generic "business stakeholders" or "reports,"
+   + But do not claim deep niche domain expertise that is not supported by my resume.
+- Clearly connect data work to business outcomes: revenue, cost savings, risk reduction, efficiency, SLAs, customer experience, regulatory/compliance needs, etc.
+- In senior roles, call out concrete business or operational problems (for example: inconsistent KPIs, slow dashboards, frequent pipeline failures, manual reconciliations, compliance pressure) and how the data platform solved them.
+
+6. Find the gap between JD and career and transform similar career and skills, services and tools into tailored resume content.
+(!!! I didn't mention all the experiences and skills that I have in the career content so this process is mandatory)
+
+-Find the gap between JD and selected career.
+-Find the possibility to transform career content into tailored resume align with JD.
+-Transform it into new career for the resume, but it has to be realistic with the other career and skills.
+
+
+Step 2 – Tech stack & system design (HLD, not low-level)
+────────────────────────
+1. Check new career that it is realistic and well built align with JD.
+-Check the career that it is realistic and align with timeline of each tool, service, cloud and etc.
+-If there are critical thing like don't align with timeline(ex: mentioned tool isn't used at that time) output alert.
+2. Describe systems at **high-level design / platform / pattern** level, such as:
+   - "cloud-native analytics platform with a central warehouse and a lakehouse backing store,"
+   - "batch and streaming pipelines feeding curated marts for pricing and claims,"
+   - "medallion architecture with standardized subject areas and conformed dimensions."
+3. Focus on combinations of tools and patterns, not implementation minutiae:
+   - OK: warehouses, lakes, pipeline frameworks, orchestrators, BI, data quality frameworks, security patterns.
+   - NOT OK: exact table names, detailed SQL tricks, connector settings, specific config flags, exact metric formulas.
+3. Use up-to-date data engineering concepts: streaming, CDC, medallion/lakehouse, dbt-style modular transformations, data quality frameworks, observability, and cost optimization.
+4. Do NOT write tool chains as "A + B + C"; instead, use natural phrases like "using A, B, and C together".
+
+
+Step 3 - EMPLOYMENT ENTRY FORMAT
+
+Use this visual order consistently in the submission resume:
+
+Company Name | Job Title
+Location / Remote | Month Year – Month Year
+Optional one-line business or project context
+• Achievement or responsibility bullet
+
+- Keep company and job title on one line when practical.
+- Keep location and dates on the following line.
+- Use consistent date formatting throughout.
+- Do not use a table merely to right-align dates.
+- Keep an employer heading with at least one following bullet on the same page.
+- Avoid splitting a short employer entry across pages.
+
+SUBMISSION RESUME LAYOUT RULES
+
+- Keep the header compact.
+- Keep the professional summary to one concise paragraph.
+- Present Technical Skills as compact categorized lines, not a table.
+- Keep most bullets to 3 or 4 displayed lines.
+- Prioritize recent and JD-relevant experience so the strongest evidence appears first.
+- Do not add an objective statement, references section, declaration, signature,
+  photograph, or personal details unrelated to the application.
+
+LINKS AND CONTACT DETAILS
+
+- Preserve the exact verified phone number, email address, location, and LinkedIn
+  URL supplied in the prompt or master resume.
+- Make the email address and LinkedIn URL clickable when technically possible.
+- Display the full LinkedIn URL in readable text; do not replace it with an icon.
+- Do not add unverified GitHub, portfolio, social-media, or personal website links.
+
+
+Step 4 - Write the EMPLOYER SUBMISSION RESUME.
+
+Create a concise, ATS-compatible resume aligned with the employer's required
+format.
+
+1. PROFESSIONAL SUMMARY
+
+Write a 60–90-word summary containing:
+
+- Verified years of experience.
+- Target role.
+- Strongest data-engineering specialization.
+- Relevant cloud and data platforms.
+- Architecture, pipeline, warehouse, or platform experience.
+- One or two business or technical outcomes.
+- Leadership, stakeholder, or mentoring experience when supported.
+- Relevant alignment with the job description.
+
+Do not write generic phrases such as "hard-working," "results-driven," or
+"team player" without evidence.
+
+2. TECHNICAL SKILLS
+
+- Use this format: bold-style category name, then an em dash, then comma-separated tools on the same line.
+- Example format (do not copy text, only the structure):
+- Category Name — tool1, tool2, tool3
+- Use categories similar to:
+- ETL & Data Pipeline Development
+- Big Data & Cloud
+- Database, Data Lake, Warehouse
+- Data Orchestration
+- Data Visualization
+- Programming Languages
+- Version Control & CI/CD & DevOps
+- Populate each category with tools from my resume and JD-relevant tools, emphasizing the JD's ecosystem but still reflecting my real stack.
+- Keep each SKILLS line focused and readable.
+
+3. Work experience rewrite
+
+For each role A, B, C, and D:
+
+1). Bullet count and structure:
+   - For each role, provide at least 7 bullets, at most 10 bullets; more are allowed if needed to express scope.
+   - Each bullet must be exactly ONE sentence.
+   - Each sentence should be concise enough to fit about 3 lines, and at most 4 lines, in a typical resume layout (normal font and margins).
+   -Within each work experience:
+	•	Do not use the same sentence structure for more than two consecutive bullets.
+	•	Avoid beginning consecutive bullets with semantically similar verbs such as "Designed," "Developed," "Built," and "Implemented."
+	•	Do not force every bullet into an "action + technology + result" formula.
+	•	Vary sentence openings among ownership, problem, outcome, scale, technical decision, system behavior, and collaboration.
+	•	Vary sentence rhythm and length while keeping every bullet concise and ATS-friendly.
+	•	Use technologies where they provide evidence or technical context; do not mechanically insert tool names into every bullet.
+	•	Prefer specific engineering nouns and verbs over generic resume language.
+	•	Avoid artificial synonyms chosen only to create variation.
+	•	Do not sacrifice technical precision merely to make sentences different.
+	•	Preserve the candidate's actual level of ownership and do not create achievements solely for structural variety.
+   -Opening-Verb Diversity
+	•Use action verbs naturally rather than rotating through a fixed list.
+	•Possible verbs include:
+	Architected, designed, engineered, developed, automated, optimized, standardized, consolidated, migrated, 	integrated, orchestrated, established, strengthened, streamlined, transformed, modeled, diagnosed, 	resolved, governed, validated, reconciled, modernized, refactored, operationalized, reviewed, guided, and 	translated.
+	However, do not require every bullet to begin with a verb.
+   -Final Repetition Check
+	After drafting each role, perform a silent repetition review.
+	Check for:
+	•	Repeated opening verbs.
+	•	Repeated grammatical structures.
+	•	Repeated phrases such as "using X to," "resulting in," "ensuring," "improving," and "supporting."
+	•	Multiple bullets describing essentially the same accomplishment.
+	•	Excessive use of technology lists.
+	•	Repeated action → implementation → metric construction.
+	•	Similar sentence lengths and rhythms.
+   Rewrite repetitive bullets while preserving their factual meaning, JD relevance, technical depth, career chronology, and verified metrics.
+   The final work experience should read as if an experienced engineer independently described different aspects of their work, not as if every accomplishment was generated from the same resume template.
+
+
+
+2). Depth of content per bullet (HLD with 80% depth):
+   - Each bullet should operate at **high-level design / platform / pattern** depth, similar to statements like:
+     	+ "Led the design of a cloud-native analytics platform using a central warehouse connected to a lakehouse, consolidating data from multiple core systems for many stakeholders."
+      = Include:
+     	+ The context or problem,
+     	+ The high-level solution (architecture, pattern, or platform using key tools),
+     	+ And the business or operational impact with metrics.
+   - Avoid low-level details like specific table names, API endpoints, configuration flags, or extremely granular SQL tricks.
+
+3). Metrics and symbols:
+   - Use quantitative metrics wherever realistic, especially in roles A and B.
+   - Use symbols such as %, TB, B, etc. (for example, "60% reduction", "10 TB", "2B records").
+   - For A and B, aim for a measurable impact in almost every bullet.
+   - For C and D, include metrics when they are natural and plausible, but do not force them.
+
+4). Seniority and alignment:
+   - A: Senior Data Engineer → strongest alignment with the JD (cloud, stack, responsibilities, business impact).
+   - B: Data Engineer → strong alignment, slightly less architectural but still senior and end-to-end.
+   - C: BI Developer / Data Pipeline Developer → show progression toward data engineering roles and broader platform thinking.
+   - D: Application Developer / ETL Developer → simpler, foundational, but still connected to data and backend systems where appropriate.
+
+
+5). EDUCATION AND CERTIFICATIONS
+
+	SIM University (now Singapore University of Social Sciences) 
+	Bachelor of Science in Information and Communication Technology | 2012 - 2016 | Singapore
+
+
+Step 5 – Global style and constraints
+────────────────────────
+1. Do NOT copy sentences or phrases from the JD; always paraphrase.
+2. Keep the focus on data engineering and data architecture, not generic full-stack development.
+3. Ensure the final resume:
+   - Reads naturally and professionally for humans.
+   - Contains relevant keywords for ATS, distributed naturally across sections.
+   - Shows a realistic mix of the JD's primary cloud ecosystem plus other cloud experience from my background.
+   - Reflects high-level design and patterns, not low-level implementation details.
+
+
+
+REQUIRED OUTPUT
+
+-Write resume on the window in keeping layout rules.
+
